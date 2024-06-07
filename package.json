@@ -1,9 +1,11 @@
 {
   "name": "restaurantly",
   "version": "1.0.0",
+  "homepage": "https://pramod529.github.io/restaurantly",
   "description": "Thanks for downloading this template!",
   "main": "index.js",
   "scripts": {
+    "deploy": "gh-pages -d build",
     "test": "mocha --recursive --exit",
     "start": "nodemon index.js"
   },
